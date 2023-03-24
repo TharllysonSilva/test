@@ -40,5 +40,12 @@ body {
   background: #dddddd;
 }
 .news-grid {
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  justify-content: center;
+  justify-items: center;
+  max-width: 110px;
+  margin: 0 auto;
+  padding: 2.5em;
 }
