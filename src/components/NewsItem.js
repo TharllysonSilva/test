@@ -22,12 +22,15 @@ function NewsItem({ item }) {
           <span>{item.source.name}</span>
         </div>
         <div className="artticle-title">
-          <h2></h2>
+          <h2>{item.title}</h2>
         </div>
-        <p className="article-description"></p>
+        <p className="article-description">
+            {item.description}
+        </p>
         <div className="article-details">
           <small>
-            <b>Publicada em: </b>
+            <b>Publicada em: </b> 
+            {formatTime}
           </small>
         </div>
       </div>
