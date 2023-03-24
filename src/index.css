@@ -112,6 +112,6 @@ body {
 }
 @media screen and (max-width: 900px) {
   .news-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
