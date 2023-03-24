@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import NewsItem from "./NewsItem";
 
 function NewsGrid({ items }) {
